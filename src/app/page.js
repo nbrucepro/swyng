@@ -7,7 +7,6 @@ export default function Home() {
     // <main className="flex">
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div style={{backgroundImage: `url('../../../images/banner.png')`}}>
-        <img src="../../../images/banner.png"/>
       <Header/>
       <Banner/>
       </div>
