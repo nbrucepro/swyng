@@ -12,7 +12,7 @@ const Header = () => {
           <img
             src="../favicon.ico"
             className="h-8"
-            alt="Flowbite Logo"
+            alt="Swyng"
           />
         </a>
         <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
