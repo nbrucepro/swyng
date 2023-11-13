@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import Swyngmoney from './components/Swyngmoney'
+import Swyngservices from './components/Swyngservices'
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <Header/>
       <Banner/>
       </div>
-      <Swyngmoney/>
+        <Swyngmoney/>
+        <Swyngservices/>
       </div>
     </main>
   )

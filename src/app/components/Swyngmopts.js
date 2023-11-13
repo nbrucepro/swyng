@@ -3,7 +3,7 @@ import Swyngbutton from "./Swyngbutton";
 
 const Swyngmopts = ({swyngmoptp}) => {
  return (
-    <div className="m-20">
+    <div className="sm:m-10 px-10 sm:block hidden">
      {swyngmoptp?.map((swyngmoptp,index)=>(
       <>
       <h1 className="text-3xl text-gray-800 font-bold mb-5">         

@@ -52,40 +52,102 @@ const Swyngmoney = () => {
             />
           </div>
         </div>
-        <div className="flex">
+        <div className="flex md:flex-row flex-col">
           {option == 1 ? (
             <>
-              <Swyngcard />
-              <Swyngmopts 
-               swyngmoptp={[
-                {
-                  title: "Drive and earn money",
-                  description: "Drive more, earn more",
-                  additionalInfo:
-                    "Our 150+ million riders will send you plenty of ride requests. When demand is high, you can earn even more."
-                },
-                {
-                  description: "Set your schedule",
-                  additionalInfo:
-                    "Drive for as long and as often as you like. Weekdays; weekends; evenings — fit driving around your lifestyle."
-                },
-              ]}
+              <Swyngcard imgsrc={"./images/driver.png"}/>
+              <Swyngmopts
+                swyngmoptp={[
+                  {
+                    title: "Drive and earn money",
+                    description: "Drive more, earn more",
+                    additionalInfo:
+                      "Our 150+ million riders will send you plenty of ride requests. When demand is high, you can earn even more.",
+                  },
+                  {
+                    description: "Set your schedule",
+                    additionalInfo:
+                      "Drive for as long and as often as you like. Weekdays; weekends; evenings — fit driving around your lifestyle.",
+                  },
+                  {
+                    description: "Get paid each week",
+                    additionalInfo:
+                      "You’ll receive your earnings at the end of each week — no need to wait around for payday.",
+                  },
+                ]}
               />
             </>
           ) : option == 2 ? (
             <>
-              <Swyngcard />
-              <Swyngmopts />
+              <Swyngcard imgsrc={"./images/courier.png"}/>
+              <Swyngmopts
+                swyngmoptp={[
+                  {
+                    title: "Make money delivering food",
+                    description: "Earn extra income, fast",
+                    additionalInfo:
+                      "There’s no subscription fee. You’ll receive your earnings at the end of each week.",
+                  },
+                  {
+                    description: "Make money whenever you like",
+                    additionalInfo:
+                      "You decide when and how often you deliver — weekdays, evenings, weekends, or just the occasional hour — it’s up to you.",
+                  },
+                  {
+                    description: "Deliver your way",
+                    additionalInfo:
+                      "Bike, scooter or car — you choose how to make deliveries.",
+                  },
+                ]}
+              />
             </>
           ) : option == 3 ? (
             <>
-              <Swyngcard />
-              <Swyngmopts />
+              <Swyngcard imgsrc={"./images/restaurant-store-owner.png"}/>
+              <Swyngmopts
+                swyngmoptp={[
+                  {
+                    title: "Increase your sales",
+                    description: "Reach new customers",
+                    additionalInfo:
+                      "Millions of our users are ordering food or goods from restaurants and stores just like yours.",
+                  },
+                  {
+                    description: "Increase your earnings",
+                    additionalInfo:
+                      "Our large network of users brings more customers and business to you.",
+                  },
+                  {
+                    description: "Let us handle delivery",
+                    additionalInfo:
+                      "We’ll take care of the logistics, while you focus on running your business.",
+                  },
+                ]}
+              />
             </>
           ) : (
             <>
-              <Swyngcard />
-              <Swyngmopts />
+              <Swyngcard imgsrc={"./images/fleet-owner.png"}/>
+              <Swyngmopts
+                swyngmoptp={[
+                  {
+                    title: "Grow your transport business",
+                    description: "Boost your earnings",
+                    additionalInfo:
+                      "Our large rider community means more orders per day and higher earnings.",
+                  },
+                  {
+                    description: "Manage your assets",
+                    additionalInfo:
+                      "Easily view your vehicles, drivers and their current status.",
+                  },
+                  {
+                    description: "Keep track of performance",
+                    additionalInfo:
+                      "Get easy access to each driver’s completed trips, invoices, and payout information.",
+                  },
+                ]}
+              />
             </>
           )}
         </div>
