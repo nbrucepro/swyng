@@ -79,7 +79,7 @@ const Swyngmoney = () => {
             </>
           ) : option == 2 ? (
             <>
-              <Swyngcard imgsrc={"./images/courier.png"}/>
+              <Swyngcard imgsrc={"./images/courier1.png"}/>
               <Swyngmopts
                 swyngmoptp={[
                   {
@@ -103,7 +103,7 @@ const Swyngmoney = () => {
             </>
           ) : option == 3 ? (
             <>
-              <Swyngcard imgsrc={"./images/restaurant-store-owner.png"}/>
+              <Swyngcard imgsrc={"./images/restaurant-store-owner1.png"}/>
               <Swyngmopts
                 swyngmoptp={[
                   {
@@ -127,7 +127,7 @@ const Swyngmoney = () => {
             </>
           ) : (
             <>
-              <Swyngcard imgsrc={"./images/fleet-owner.png"}/>
+              <Swyngcard imgsrc={"./images/fleet-owner1.png"}/>
               <Swyngmopts
                 swyngmoptp={[
                   {
